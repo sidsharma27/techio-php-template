@@ -5,6 +5,7 @@
 
             $file = file_get_contents("./Universe.php");
             if (strpos($file, "array_sum") !== false) {
+                echo("TECHIO> success [true]");
                 echo("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏 * ● ¸ .　¸. :° ☾ ° 　¸. ● ¸ .　　¸.　:. • \r\n");
                 echo("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏           　★ °  ☆ ¸. ¸ 　★　 :.　 .   \r\n");
                 echo("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏 __.-._     ° . .　　　　.　☾ ° 　. *   ¸ .\r\n");
@@ -14,10 +15,12 @@
             }
             else
             {
+                echo("TECHIO> success [true]");
                 echo("TECHIO> message --channel Hint: Good Job! Try using array_sum");
             }
         } 
         else {
+            echo("TECHIO> success [false]");
             echo("TECHIO> message --channel Oops! Try Again 🐞 \r\n");
             echo("TECHIO> message --channel Oops! Hint 💡 Did you properly accumulate all stars into 'totalStars'? 🤔 \r\n");
         }

@@ -22,7 +22,7 @@
         else {
             echo("TECHIO> success false  \r\n");
             echo("TECHIO> message --channel Oops! Try Again 🐞 \r\n");
-            echo("TECHIO> message --channel Oops! Hint 💡 Did you properly accumulate all stars into 'totalStars'? 🤔 \r\n");
+            echo("TECHIO> message --channel Hint💡 Did you properly accumulate all stars into 'totalStars'? 🤔 \r\n");
         }
     }
     test();

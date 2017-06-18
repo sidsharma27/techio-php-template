@@ -15,12 +15,12 @@
             }
             else
             {
-                echo("TECHIO> success [true]");
+                echo("TECHIO> success true");
                 echo("TECHIO> message --channel Hint: Good Job! Try using array_sum");
             }
         } 
         else {
-            echo("TECHIO> success [false]");
+            echo("TECHIO> success false");
             echo("TECHIO> message --channel Oops! Try Again 🐞 \r\n");
             echo("TECHIO> message --channel Oops! Hint 💡 Did you properly accumulate all stars into 'totalStars'? 🤔 \r\n");
         }

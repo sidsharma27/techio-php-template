@@ -5,11 +5,11 @@
 
             $file = file_get_contents("./Universe.php");
             if (strpos($file, "array_sum") !== false) {
-                echo("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏 * ● ¸ .　¸. :° ☾ ° 　¸. ● ¸ .　　¸.　:. • ");
-                echo("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏           　★ °  ☆ ¸. ¸ 　★　 :.　 .   ");
-                echo("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏 __.-._     ° . .　　　　.　☾ ° 　. *   ¸ .");
-                echo("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏  /'.-c    　   * ●  ¸.　　°     ° 　¸.    ");
-                echo("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏  |  /T      　　°     ° 　¸.     ¸ .　　  ");
+                echo("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏 * ● ¸ .　¸. :° ☾ ° 　¸. ● ¸ .　　¸.　:. • \r\n");
+                echo("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏           　★ °  ☆ ¸. ¸ 　★　 :.　 .   \r\n");
+                echo("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏 __.-._     ° . .　　　　.　☾ ° 　. *   ¸ .\r\n");
+                echo("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏  /'.-c    　   * ●  ¸.　　°     ° 　¸.    \r\n");
+                echo("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏  |  /T      　　°     ° 　¸.     ¸ .　　  \r\n");
                 echo("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏 _)_/LI");
             }
             else

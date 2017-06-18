@@ -15,7 +15,7 @@
             }
             else
             {
-                echo("TECHIO> success true");
+                echo("TECHIO> success true \r\n");
                 echo("TECHIO> message --channel Hint: Good Job! Try using array_sum");
             }
         } 

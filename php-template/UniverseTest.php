@@ -3,6 +3,7 @@
     function test() {
         if (countAllStars([2,3]) ==  5 && countAllStars([9,-3]) == 6) {
 
+            echo("TECHIO> success true \r\n");
             $file = file_get_contents("./Universe.php");
             if (strpos($file, "array_sum") !== false) {
                 echo("TECHIO> success [true]");
@@ -15,7 +16,6 @@
             }
             else
             {
-                echo("TECHIO> success true \r\n");
                 echo("TECHIO> message --channel Hint: Good Job! Try using array_sum");
             }
         } 

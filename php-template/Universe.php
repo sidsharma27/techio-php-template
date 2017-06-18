@@ -2,7 +2,7 @@
     function countAllStars($galaxies) {
         $totalStars = 0;
         foreach ($galaxies as $star) {
-            $totalStars = $star;
+            $totalStars = $star; //Hint: Change = to +=
         }
         return $totalStars;
     }

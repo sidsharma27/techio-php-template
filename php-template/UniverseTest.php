@@ -16,16 +16,10 @@
             {
                 echo("TECHIO> message --channel Hint: Good Job! Try using array_sum");
             }
-
-
-            if( strpos(file_get_contents("./Universe.php"),$_GET['array_sum']) !== false) {
-                    
-            } else {
-                
-            } 
-        } else {
-            echo("TECHIO> message --channel Oops! Try Again 🐞");
-            echo("TECHIO> message --channel Oops! Hint 💡 Did you properly accumulate all stars into 'totalStars'? 🤔");
+        } 
+        else {
+            echo("TECHIO> message --channel Oops! Try Again 🐞 \r\n");
+            echo("TECHIO> message --channel Oops! Hint 💡 Did you properly accumulate all stars into 'totalStars'? 🤔 \r\n");
         }
     }
     test();

@@ -6,7 +6,6 @@
             echo("TECHIO> success true \r\n");
             $file = file_get_contents("./Universe.php");
             if (strpos($file, "array_sum") !== false) {
-                echo("TECHIO> success [true]");
                 echo("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏 * ● ¸ .　¸. :° ☾ ° 　¸. ● ¸ .　　¸.　:. • \r\n");
                 echo("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏           　★ °  ☆ ¸. ¸ 　★　 :.　 .   \r\n");
                 echo("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏 __.-._     ° . .　　　　.　☾ ° 　. *   ¸ .\r\n");
